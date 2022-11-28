@@ -1,0 +1,19 @@
+:root {
+    --animationSpeed: 40s;
+}
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateY(400);}
+}
+
+
+.slider {
+	overflow:hidden;
+	position: relative;
+    animation: scroll 1.8s linear infinite;
+}
+
+.carousel__video {
+    display:block;
+}

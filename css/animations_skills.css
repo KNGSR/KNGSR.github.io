@@ -1,11 +1,10 @@
 /*------------------------------ animations page skills ----------------*/
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-  }
   
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+  }
+
   :root {
 	--secondary-color: #F7D40A;
 	--contrast-color: #ffffff;
@@ -23,10 +22,12 @@
   
   .container {
 	display: flex;
-	height: 100vh;
+	height: 100%;
+	width: auto;
 	justify-content: space-around;
 	color: #fff;
 	animation: slideUp .8s ease forwards;
+	background-image: url("../fond1.png");
 	background-color: var(--secondary-color);
 	position: relative;
 	transition: all .8s ease;
@@ -34,6 +35,8 @@
   
   .container_content {
    width: 50%;
+   margin-top: 5%;
+   margin-left: 2%;
   }
   
   .container_content_inner {
@@ -67,6 +70,7 @@
 	line-height: 28px;
 	transform: translateY(300px);
 	animation: slideUp .8s ease-in-out forwards .8s;
+	margin-left: 17%;
   }
   
   .btns {
@@ -96,12 +100,14 @@
 	height: auto;
   }
   
-  h1 {
+  h3 {
 	  font-family: 'Montserrat', sans-serif;
 	  font-weight: 900;
 	  font-size: 50px;
 	  color: var(--contrast-color);
 	  margin-bottom: 30px;
+	  margin-top: 5%;
+	  margin-left: 40%;
 	  transform: translateY(100px);
 	  animation: slideUph1 .6s ease forwards .5s;
   }
@@ -119,7 +125,7 @@
 	  transform: translateY(4000px);
 	}
 	100% {
-	  transform: translateY(-70px);
+	  transform: translateY(0px);
 	}
   }
   
@@ -136,12 +142,4 @@
 	0% {
 	  transform: translateX(1400px);
 	}
-}
-
-.C1 {
-	width: 100px;
-        height: 100px;
-        background: #4bc475;
-        border: 1px solid #000;
-		border-radius: 50%;
 }

@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html, body {
+  max-width: 100%;
+}
+
 h1 {
 font-family: 'Montserrat', sans-serif;
 font-size: 35px;
@@ -77,10 +81,7 @@ i {
   text-align: center;
 }
 
-.C1 {
-	width: 100px;
-        height: 100px;
-        background: #4bc475;
-        border: 1px solid #000;
-		border-radius: 50%;
+.bouton_play {
+  position: relative;
+  margin-top: 2%;
 }
