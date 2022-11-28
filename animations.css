@@ -1,0 +1,15 @@
+.bouton_play {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: #000;
+	margin: 3% auto 0;
+	box-shadow: 0 0 0 0 #000
+	animation: pulse 1.3s infinite;
+}
+
+@keyframes pulse {
+	to {
+		box-shadow: 0 0 0 18 rgba(0,0,0.01);
+	}
+}
