@@ -35,6 +35,7 @@ i {
 /* Style the links inside the navigation bar */
 .topnav b {
 	font-family: Ubuntu;
+  font-weight: 700;
 	float: left;
 	padding: 14px 16px;
 	text-align: center;
@@ -44,7 +45,8 @@ i {
 }
 .topnav a {
   float: right;
-  color: #f2f2f2;
+  font-family: Ubuntu;
+  color: #cacaca;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -54,20 +56,13 @@ i {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  -webkit-text-fill-color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #000;
   color: white;
-}
-
-.footer{
-	background-color: #F7D40A;
-	margin-top:24%;
-	width:100%;
-	text-align: center;
+  -webkit-text-fill-color: #F7D40A;
 }
 
 .yellow{

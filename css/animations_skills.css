@@ -49,8 +49,13 @@
 	margin-right: 10%;
 	margin-left: 23.5%;
 	width: 70%;
-	
-	animation: slideIn 1.5s ease-in-out forwards;
+	animation: slideUp 1.5s ease-in-out forwards;
+  }
+  .container_img2 {
+	margin-right: 10%;
+	margin-left: 23.5%;
+	width: 70%;
+	animation: slideUp 1.7s ease-in-out forwards;
   }
   
   .par {
