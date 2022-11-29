@@ -3,6 +3,7 @@
 html, body {
 	max-width: 100%;
 	overflow-x: hidden;
+	overflow-y: hidden;
   }
 
   :root {
@@ -36,16 +37,18 @@ html, body {
   .container_content {
    width: 50%;
    margin-top: 5%;
-   margin-left: 2%;
+   margin-left: 5%;
   }
   
   .container_content_inner {
 	width: 90%;
+	
 	margin-left: 25%;
   }
   
   .container_outer_img {
-	width: 80%;
+	width: 100%;
+	margin-left:20%;
   }   
 	  
   .container_img {
@@ -111,6 +114,12 @@ html, body {
 	  transform: translateY(100px);
 	  animation: slideUph1 .6s ease forwards .5s;
   }
+
+
+
+
+
+
   
   @keyframes slideIn {
 	0% {

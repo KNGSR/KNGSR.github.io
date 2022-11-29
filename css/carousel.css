@@ -1,6 +1,10 @@
 :root {
     --animationSpeed: 40s;
 }
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+  }
 
 @keyframes scroll {
 	0% { transform: translateX(0); }
