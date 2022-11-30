@@ -1,7 +1,14 @@
 /*------------------------------ animations page skills ----------------*/
-  
+
+
+:root {
+	--video_height: 600;
+	--video_width: 800;
+}
+
 html, body {
-	max-width: 100%;
+	max-width: 100vh;
+	min-width: 10vh;
 	overflow-x: hidden;
 	overflow-y: hidden;
   }
@@ -36,24 +43,14 @@ html, body {
 
   .splide__track{
 	right: 5vh;
-  }
-  
-  .container_content {
-   width: 55%;
-   margin-top: 5%;
-   margin-left: 3%;
+	position: relative;
+	left: 5vh;
   }
   
   .container_content_inner {
-	width: 120%;
+	width: 150%;
 	margin-left: 25%;
   }
-  
-  .container_outer_img {
-	width: 100%;
-	position:relative;
-	left: 18%;
-  }   
   
   .par {
 	height: auto;
@@ -69,14 +66,15 @@ html, body {
 	overflow:visible;
 	transform: translateY(300px);
 	animation: slideUp .8s ease-in-out forwards .8s;
-	left: 5.5vw;
+	left: 1vw;
   }
   ol {
 	margin-top: 0.5vh;
-	margin-bottom: 7vh;
+	margin-bottom: 3vh;
   }
 
   h4{
+	left: 0.5vw;
 	margin-bottom: 0.5vh;
 	color: black;
 	position: relative;
@@ -86,7 +84,6 @@ html, body {
 	overflow:visible;
 	transform: translateY(300px);
 	animation: slideUp .8s ease-in-out forwards .8s;
-	left: 5.5vw;
   }
 
   i{
@@ -105,14 +102,18 @@ html, body {
 	position: relative;
 	font-family: 'Montserrat';
 	font-size: 26px;
+	margin-top: 16vh;
+	left: 5vw;
   }
 
   .btns {
+	margin-top: 5vh;
 	display:inline;
 	height: 100%;
 	position: relative;
 	width: 150px;
 	overflow: hidden;
+	left: -13vh;
   }
   
   .btns_more {
@@ -148,18 +149,20 @@ html, body {
 	  font-size: 50px;
 	  color: var(--contrast-color);
 	  margin-bottom: 2%;
-	  margin-top: 5%;
-	  margin-left: 32%;
+	  margin-top: 7vh;
+	  position:relative;
+	  left: 10vw;
 	  transform: translateY(100px);
 	  animation: slideUph1 .6s ease forwards .5s;
   }
 
   .review{
+	margin-top: 1vh;
 	position: relative;
-	top: 10vh;
-	left: 10vw;
-	border: 2px solid #F7D40A;
-	border-radius: 1vh;;
+	border: 20px solid #ffffff;
+	border-radius: 2vh;
+	overflow: scroll;
+	right: 6vw;
   }
 
 
@@ -197,5 +200,33 @@ html, body {
   @keyframes expand {
 	0% {
 	  transform: translateX(1400px);
+	}
+}
+
+
+
+
+
+
+@media screen and (max-width: 1700px) {
+	.splide__track {
+		align-items: center;
+		align-content: center;
+	}
+	div {
+		width: 90%;
+	}
+	.par {
+		margin-left: 5%;
+		width: 80%;
+	}
+	.container_content_inner{
+		margin-left: 5%;
+	}
+	.review {
+		margin-left: 10%;
+	}
+	.btns {
+		left: 2vw;
 	}
 }
