@@ -1,0 +1,201 @@
+/*------------------------------ animations page skills ----------------*/
+  
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+  }
+
+  :root {
+	--secondary-color: #F7D40A;
+	--contrast-color: #ffffff;
+  }
+  .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	z-index: -15;
+	background-color: var(--contrast-color);
+  }
+  
+  .container {
+	display: flex;
+	height: 100%;
+	width: auto;
+	justify-content: space-around;
+	color: #fff;
+	animation: slideUp .8s ease forwards;
+	background-image: url("../fond1.png");
+	background-color: var(--secondary-color);
+	position: relative;
+	transition: all .8s ease;
+  }
+
+  .splide__track{
+	right: 5vh;
+  }
+  
+  .container_content {
+   width: 55%;
+   margin-top: 5%;
+   margin-left: 3%;
+  }
+  
+  .container_content_inner {
+	width: 120%;
+	margin-left: 25%;
+  }
+  
+  .container_outer_img {
+	width: 100%;
+	position:relative;
+	left: 18%;
+  }   
+  
+  .par {
+	height: auto;
+	overflow: hidden;
+  }
+  
+  p{
+	color: rgb(0, 0, 0);
+	position: relative;
+	font-family: 'Ubuntu';
+	font-size: 23px;
+	line-height: 28px;
+	overflow:visible;
+	transform: translateY(300px);
+	animation: slideUp .8s ease-in-out forwards .8s;
+	left: 5.5vw;
+  }
+  ol {
+	margin-top: 0.5vh;
+	margin-bottom: 7vh;
+  }
+
+  h4{
+	margin-bottom: 0.5vh;
+	color: black;
+	position: relative;
+	font-family: 'Ubuntu';
+	font-size: 25px;
+	line-height: 28px;
+	overflow:visible;
+	transform: translateY(300px);
+	animation: slideUp .8s ease-in-out forwards .8s;
+	left: 5.5vw;
+  }
+
+  i{
+	color: black;
+	position: relative;
+	font-family: 'Ubuntu';
+	font-size: 23px;
+	line-height: 0px;
+	overflow:visible;
+	transform: translateY(300px);
+	animation: slideUp .8s ease-in-out forwards .8s;
+  }
+
+  .checkif{
+	color: rgb(255, 255, 255);
+	position: relative;
+	font-family: 'Montserrat';
+	font-size: 26px;
+  }
+
+  .btns {
+	display:inline;
+	height: 100%;
+	position: relative;
+	width: 150px;
+	overflow: hidden;
+  }
+  
+  .btns_more {
+	border: 1px solid var(--contrast-color);
+	border-radius: 50px;
+	margin-left: 1vh;
+	padding: 8px 12px;
+	color: #000000;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: uppercase;
+	position: relative;
+	margin-top: 2vh;
+	outline: none;
+	transform: translateY(50px);
+	animation: slideIn .8s ease-in-out  forwards 1s;
+  }
+
+  .btns_more:hover{
+	cursor:pointer;
+	background-color: #cacaca;
+  }
+  
+  .title {
+	overflow: hidden;
+	height: auto;
+  }
+  
+  h3 {
+	  font-family: 'Montserrat', sans-serif;
+	  font-weight: 900;
+	  font-size: 50px;
+	  color: var(--contrast-color);
+	  margin-bottom: 2%;
+	  margin-top: 5%;
+	  margin-left: 32%;
+	  transform: translateY(100px);
+	  animation: slideUph1 .6s ease forwards .5s;
+  }
+
+  .review{
+	position: relative;
+	top: 10vh;
+	left: 10vw;
+	border: 2px solid #F7D40A;
+	border-radius: 1vh;;
+  }
+
+
+
+
+
+
+  
+  @keyframes slideIn {
+	0% {
+	  transform: translateX(500px) scale(.2);
+	}
+	100% {
+	  transform: translateX(0px) scale(1);
+	}
+  }
+  @keyframes slideUph1 {
+	0% {
+	  transform: translateY(4000px);
+	}
+	100% {
+	  transform: translateY(0px);
+	}
+  }
+  
+  @keyframes slideUp {
+	0% {
+	  transform: translateY(4000px);
+	}
+	100% {
+	  transform: translateY(0px);
+	}
+  }
+  
+  @keyframes expand {
+	0% {
+	  transform: translateX(1400px);
+	}
+}
