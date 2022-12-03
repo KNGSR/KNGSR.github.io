@@ -68,7 +68,7 @@ html, body {
 	animation: slideUp .8s ease-in-out forwards .8s;
 	left: 1vw;
   }
-  ol {
+  ul {
 	margin-top: 0.5vh;
 	margin-bottom: 3vh;
   }
