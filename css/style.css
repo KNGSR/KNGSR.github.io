@@ -91,3 +91,21 @@ i {
   position: relative;
   margin-top: 2%;
 }
+
+@media screen and (max-width: 1700px) {
+  svg{
+    max-width: 80%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .bouton_play {
+    margin-top: 4%;
+  }
+  #play {
+    max-width: 50%;
+  }
+  }
