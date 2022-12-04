@@ -200,7 +200,7 @@ html, body {
 
 
 
-@media screen and (max-width: 1700px) and (max-height: 700px) {
+@media screen and (max-width: 1700px) and (max-height: 600px) {
 
 	video {
 		height: 99%;
@@ -335,6 +335,113 @@ html, body {
 	}
 	.topnav{
 		width: 100%
+	}
+	ul {
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	html,body {
+		overflow-y: scroll;
+		max-width: auto;
+		max-height: 90%;
+	}
+	video {
+		height: 130%;
+		width: 100%;
+		margin-bottom:17vh;
+	}
+	.container{
+		background-size:150%;
+		background-image: url("../fond.png");
+	}
+	.title {
+		margin-top: -23%;
+		margin-left: 35%;
+		margin-bottom: 4%;
+		width: 200%;
+		
+		
+	}
+	.splide__track{
+		left: -30%;
+	}
+	.container_outer_img{
+		height: 100%;
+		width: 500%;
+		margin-top: 140%;
+		
+	}
+	div {
+		width: 100%;
+	}
+	.par {
+		margin-left: 3%;
+		width: 100%;
+	}
+	h3 {
+		font-size:40px;
+		margin-bottom: 0px;
+	}
+	h4 {
+		width: 200%;
+		font-size: 17px;
+		
+	}
+	.review {
+		margin-top: 0vh;
+		position: relative;
+		border: 20px solid #ffffff;
+		border-radius: 3vh;
+		right: 8vw;
+		max-width: 90%;
+	}
+	p {
+		font-size: 13px;
+		line-height: 16px;
+		margin-right: 0;
+		width: 90%;
+		
+	}
+	i {
+		font-size: 11px;
+	}
+	.btns {
+		left: 7%;
+		width: 100%;
+	}
+	.checkif{
+		font-size: 15px;
+		left: 2vw;
+		margin-top: 1vh;
+	}
+	.container_content_inner{
+		margin-left: 5%;
+		width: 250%;
+		margin-right: 0;
+	}
+	.review {
+		margin-top: 3%;
+		margin-left: 10%;
+	}
+	.btns_more{
+		border: 1px solid var(--contrast-color);
+	border-radius: 50px;
+	margin-left: 0vh;
+	padding: 8px 12px;
+	color: #000000;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: uppercase;
+	position: relative;
+	margin-top: 2vh;
+	}
+	.topnav a{
+		width: 0;
+		height: 13px;
 	}
 	ul {
 		margin-bottom: 0;
