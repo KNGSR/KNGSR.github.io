@@ -56,6 +56,8 @@ html, body {
   }
   
   p{
+	width:50%;
+	word-wrap: break-word;
 	color: rgb(0, 0, 0);
 	position: relative;
 	font-family: 'Ubuntu';
@@ -66,10 +68,6 @@ html, body {
 	animation: slideUp .8s ease-in-out forwards .8s;
 	left: 1vw;
   }
-  ul {
-	margin-top: 0.5vh;
-	margin-bottom: 3vh;
-  }
 
   h4{
 	left: 0.5vw;
@@ -77,7 +75,7 @@ html, body {
 	color: black;
 	position: relative;
 	font-family: 'Ubuntu';
-	font-size: 25px;
+	font-size: 26px;
 	line-height: 28px;
 	overflow:visible;
 	transform: translateY(300px);
@@ -100,8 +98,9 @@ html, body {
 	position: relative;
 	font-family: 'Montserrat';
 	font-size: 26px;
-	margin-top: 16vh;
-	left: 5vw;
+	font-weight: 500;
+	margin-top: 12vh;
+	left: 7vw;
   }
 
   .btns {
@@ -111,13 +110,13 @@ html, body {
 	position: relative;
 	width: 150px;
 	overflow: hidden;
-	left: -13vh;
+	left:-5%;
   }
   
   .btns_more {
 	border: 1px solid var(--contrast-color);
 	border-radius: 50px;
-	margin-left: 1vh;
+	margin-left: 2vh;
 	padding: 8px 12px;
 	color: #000000;
 	font-family: 'Montserrat';
@@ -147,15 +146,16 @@ html, body {
 	  font-size: 50px;
 	  color: var(--contrast-color);
 	  margin-bottom: 2%;
-	  margin-top: 7vh;
+	  margin-top: 9vh;
 	  position:relative;
-	  left: 10vw;
+	  left: 15vw;
 	  transform: translateY(100px);
 	  animation: slideUph1 .6s ease forwards .5s;
   }
 
   .review{
-	margin-top: 1vh;
+	margin-top: 5vh;
+	width:55%;
 	position: relative;
 	border: 20px solid #ffffff;
 	border-radius: 2vh;
@@ -243,6 +243,7 @@ html, body {
 		max-width: 55%;
 	}
 	p {
+		width: 50%;
 		font-size: 18px;
 		line-height: 24px;
 	}
@@ -316,14 +317,15 @@ html, body {
 		max-width: 90%;
 	}
 	p {
+		width: 65%;
 		font-size: 21px;
 		line-height: 28px;
 	}
 	i {
 		font-size: 19px;
 	}
-	.btns {
-		left: 50%;
+	.btns_more{
+		left:1vh;
 	}
 	.checkif{
 		font-size: 21px;
@@ -338,7 +340,7 @@ html, body {
 		margin-left: 10%;
 	}
 	.btns {
-		left: 2vw;
+		left: 0vw;
 	}
 	.topnav{
 		width: 100%
@@ -395,13 +397,10 @@ html, body {
 	i {
 		font-size: 17px;
 	}
-	.btns {
-		left: 0%;
-	}
 	.checkif{
-		font-size: 21px;
-		left: 10vw;
-		margin-top: 4vh;
+		font-size: 16px;
+		left: 7vw;
+		margin-top: 2vh;
 	}
 	.container_content_inner{
 		margin-left: 5%;
@@ -410,16 +409,31 @@ html, body {
 		margin-top: 3%;
 		margin-left: 10%;
 	}
-	.btns_more{
-		padding:0px,0px;
-
-	}
 	.topnav{
 		width: 100%
 	}
-	ul {
-		margin-bottom: 0;
-	}
+	.btns {
+		margin-top: 5vh;
+		display:inline;
+		height: 100%;
+		position: relative;
+		width: 150px;
+		overflow: hidden;
+		left:7%;
+	  }
+	  .btns_more {
+		border: 1px solid var(--contrast-color);
+		border-radius: 50px;
+		margin-left: 0.5vh;
+		padding: 2px 6px;
+		color: #000000;
+		font-family: 'Montserrat';
+		font-weight: 500;
+		font-size: 12px;
+		text-transform: uppercase;
+		position: relative;
+		margin-top: 0.5vh;
+	  }
 }
 
 @media screen and (max-width: 800px) {
