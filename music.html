@@ -6,31 +6,134 @@
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/animations.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+	<style>
+		.container{
+			height: 300%;
+			background-color: rgb(252, 255, 71);
+			background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/64/Creaci%C3%B3n_de_Ad%C3%A1n_%28Miguel_%C3%81ngel%29.jpg);
+			background-size: 100% auto;
+			background-position: top center;
+			background-attachment: fixed;
+			
+		}
+
+			@keyframes gradient {
+					0% {
+					background-position: 0% 50%;
+					}
+					
+					50% {
+					background-position: 100% 50%;
+					}
+					
+					100% {
+					background-position: 0% 50%;
+					}
+			}
+		.video-container {
+		  display: flex;
+		}
+	
+		.video {
+		  width: 50%;
+		}
+	
+		.description {
+			background: radial-gradient(circle, rgba(0, 0, 0, 0.24) 17%, rgba(0, 0, 0, 0.212) 50%, rgba(0, 0, 0, 0.212) 83%);
+			display: grid;
+			height: 100%;
+			background-size: 100% 100%;
+			backdrop-filter: blur(5px);
+			mix-blend-mode:color-burn;
+		  	font-family: "Montserrat", sans-serif;
+		  padding: 20px;
+		  width: 50%;
+		}
+		.centered {
+   			margin: 0 auto;
+    		width: 90%; /* Set the width of the element if it is not already set */
+  		}
+		p {
+			margin-top: 10%;
+			word-wrap: break-word;
+			font-size: 23px;
+		}
+		h3 {
+			margin-top: 1%;
+			font-size: 40px;
+			font-family: 'Montserrat';
+			margin-bottom:2vh;
+		}
+		#pub_carre{
+			width: 50%;
+		}
+		.ligne {
+			margin-top:35%;
+			height: 10px;
+  			width: 100%;
+  			background-color: rgb(255, 255, 255);
+  			display: inline-block;
+		}
+
+		@keyframes para {
+			100% {
+		background-position: 
+			-5000px 20%,
+			-800px 95%,
+			500px 50%,
+			1000px 100%,
+			400px 0;
+		}
+	}
+
+
+	  </style>
+
+	  <!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7DKNKYHF6R"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-7DKNKYHF6R');
+	</script>
+
 </head>
-	<body>
-		<div class="topnav">
-			<a href="#about">About</a>
-  			<a href="./whyme.html">Why Me ?</a>
-			<a class="active" href="./index.html">Home</a>
-			<b> K&nbsp;&nbsp;&nbsp;N&nbsp;&nbsp;&nbsp;G&nbsp;&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;R </b>
-		</div>
-		<main id="swup" class="transition-fade">
-			<h1>HI, I'M <span class="yellow">LUCAS</span>, A VIDEO EDITOR.</h1>
-			<h2>AND <i>THIS</i> IS MY WORK</h2>
+<body>
 
-			<div class="bouton_play">
-				<svg version="1.1" id="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="10%" y="10%" height="50px" width="50px"
-				viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-					<a xlink:href="./whyme.html">
-						<path class="stroke-solid" fill="none" stroke="#F7D40A"  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
-						C97.3,23.7,75.7,2.3,49.9,2.5"/>
-						<path class="stroke-dotted" fill="none" stroke="#F7D40A"  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
-						C97.3,23.7,75.7,2.3,49.9,2.5"/>
-						<path class="icon" fill="#F7D40A" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
-					</a>
-				</svg>
+	<div class="topnav">
+		<a href="./mail.html">Contact Me !</a>
+		  <a href="./whyme.html">Why Me ?</a>
+		<a href="./index.html">Home</a>
+		<b> K&nbsp;&nbsp;&nbsp;N&nbsp;&nbsp;&nbsp;G&nbsp;&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;R </b>
+	</div>
+		<div class="container">
+
+			<div class="video-container">
+				<video class="video" width="600" height="600" src="videos/677.m4v" controls muted autoplay loop></video>
+				<video class="video" width="600" height="600" src="videos/745.m4v" controls muted autoplay loop></video>
+				<video class="video" width="600" height="600" src="videos/Polak.m4v" muted autoplay loop></video>
+				<video class="video" width="600" height="600" src="videos/Ffo.mp4" controls muted autoplay loop></video>
 			</div>
-		</main>
-
-	</body>
-</html>
+				
+			<div class="video-container">
+				<video class="video"  src="videos/lyrics.mp4" controls muted autoplay loop></video>
+				<div class="description">
+				<h3>Histoire d'or</h3>
+				<p class="centered">A fake ad for <b>Histoire D'or</b>, a jewerly retailer.</p>
+				<span class="ligne"></span>
+				</div>
+			</div>
+			<div class="video-container">
+				
+				<div class="description">
+				<h3>NO INTERNET ?</h3>
+				<p class="centered">A short ad for a fake phone provider company.</p>
+				</div>
+				<video class="video" id="pub_carre" src="videos/Pub.m4v" controls muted autoplay loop></video>
+			</div>
+		</div>
+     
+</body>
