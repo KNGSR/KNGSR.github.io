@@ -38,11 +38,8 @@ html, body {
 	position: relative;
 	transition: all .8s ease;
   }
-
   .splide__track{
-	right: 5vh;
 	position: relative;
-	left: 5vh;
   }
   
   .container_content_inner {
@@ -56,7 +53,7 @@ html, body {
   }
   
   p{
-	width:50%;
+	width:46%;
 	word-wrap: break-word;
 	color: rgb(0, 0, 0);
 	position: relative;
