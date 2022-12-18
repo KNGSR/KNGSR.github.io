@@ -92,6 +92,49 @@ i {
   margin-top: 2%;
 }
 
+.nav{
+  list-style:none;
+  background-color: #000000;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+.nav li{
+  display:inline;
+}
+.nav a{
+  display:inline-block;
+  font-family: 'Montserrat';
+  color: #ffffff;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: rgb(77, 77, 77);
+  -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+  color:#F7D40A;
+  -webkit-text-fill-color: #F7D40A;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 @media screen and (max-width: 1700px) {
   svg{
