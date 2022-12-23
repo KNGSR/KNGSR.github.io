@@ -9,6 +9,12 @@
 
 	
 	<style>
+		html, body {
+			max-width: 100%;
+			min-width: 10%;
+			overflow-x: hidden;
+		}
+
 		.container{
 			height: 300%;
 			background-color: rgb(252, 255, 71);
@@ -37,7 +43,14 @@
 		}
 		.video-container2 {
 		  display: flex;
-		  width:50%;
+		  align-items: center;
+		  width:40%;
+		margin: 0 5%;
+		  justify-content: space-between;
+		}
+		.video2{
+			width: 50%;
+			margin: 0 5%;
 		}
 	
 		.video {
@@ -58,7 +71,7 @@
 		.description2 {
 			background: radial-gradient(circle, rgba(0, 0, 0, 0.24) 17%, rgba(0, 0, 0, 0.212) 50%, rgba(0, 0, 0, 0.212) 83%);
 			display: inline-block;
-			height: 10%;
+			height: 5%;
 			background-size: 100% 100%;
 			backdrop-filter: blur(5px);
 			mix-blend-mode:color-burn;
@@ -101,8 +114,8 @@
 		}
 		.desc2{
 			display: flex;
-			justify-content: center;
-  			text-align: center; /* Add this line to center the text */
+			margin-top: 3%;
+			justify-content: center;/* Add this line to center the text */
 		}
 
 		@keyframes para {
@@ -152,14 +165,14 @@
 			
 
 			<div class="video-container2">
-				<video class="video" width="600" height="600" src="videos/677.m4v" controls muted autoplay loop></video>
-				<video class="video" width="600" height="600" src="videos/745.m4v" controls muted autoplay loop></video>
-				<video class="video" width="600" height="600" src="videos/Polak.m4v" muted autoplay loop></video>
-				<video class="video" width="600" height="600" src="videos/Ffo.mp4" controls muted autoplay loop></video>
+				<video class="video2" width="600" height="600" src="videos/677.m4v" controls muted autoplay loop></video>
+				<video  class="video2" width="600" height="600" src="videos/745.m4v" controls muted autoplay loop></video>
+				<video class="video2" width="600" height="600" src="videos/Polak.m4v" muted autoplay loop></video>
+				<video class="video2" width="600" height="600" src="videos/Ffo.mp4" controls muted autoplay loop></video>
 			</div>
 
 			<div class="description2">
-				<p class="desc2">Desc</p>
+				<p class="desc2">A collection of small lyrics videos for my TikTok account.</p>
 			</div>
 
 				
@@ -168,7 +181,7 @@
 				<div class="description">
 				<h3>KYRIE</h3>
 				<p class="centered">A video for a techno music about life and god.</p>
-				<span class="ligne"></span>
+				<span class="ligne" style="margin-top:45%"></span>
 				</div>
 			</div>
 			<div class="video-container">
@@ -176,6 +189,7 @@
 				<div class="description">
 				<h3>Compilation</h3>
 				<p class="centered">A compilation of old videos.</p>
+				<span class="ligne" style="margin-top:45%"></span>
 				</div>
 				<video class="video" id="pub_carre" src="videos/lyrics.mp4" controls muted autoplay loop></video>
 			</div>
