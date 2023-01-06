@@ -12,7 +12,17 @@ body {
   height: 100%;
 }
 
+body[lang="en"] [lang="fr"],
+body[lang="fr"] [lang="en"]{
+  display: none;
+}
 
+rect.btn {
+  stroke:#fff;
+  fill:#fff;
+  fill-opacity:0;
+  stroke-opacity:0;
+}
 
 h1 {
 font-family: 'Montserrat', sans-serif;
@@ -128,11 +138,23 @@ i {
 ul {
   margin: 0;
   padding: 0;
+  
 }
 
 ul li {
   margin-left: auto;
   margin-right: auto;
+}
+
+select {
+  margin-top: 45vh;
+  border-width: 2px;
+  font-family: 'Montserrat';
+  font-size: large;
+}
+
+.drapeau{
+  margin-left:5px;
 }
 
 
@@ -153,3 +175,4 @@ ul li {
     max-width: 50%;
   }
 }
+
