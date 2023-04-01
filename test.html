@@ -1,0 +1,20 @@
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+<script>
+var dir = "images/";
+var fileextension = ".png";
+$.ajax({
+    //This will retrieve the contents of the folder if the folder is configured as 'browsable'
+    url: dir,
+    success: function (data) {
+        //List all .png file names in the page
+        var filename = this.href.replace(window.location.host, "").replace("http://", "");
+        $("body").append("<img src='images/test.jpg'>");
+    }
+});
+</script>
+</body>
+</html>
