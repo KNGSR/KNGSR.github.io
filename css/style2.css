@@ -34,7 +34,9 @@
   text-align: center;
   }
 
-  .grid-container {
+  .portfolio-items {
+    margin-left: 10%;
+    margin-right:10%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-items: center;
