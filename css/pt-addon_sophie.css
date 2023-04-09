@@ -302,7 +302,7 @@ body .category .item,
 .project-slider-block .thumbs .swiper-slide,
 .filter-button-group button:not(.active):hover,
 .category-buttons a:not(.active):hover {
-  color: #ff5d8f;
+  color: #d4314c;
 }
 
 .portfolio_hover_type_4 .portfolio-item .content h5:after,
@@ -313,7 +313,7 @@ body .category .item,
 .booked-calendar-shortcode-wrap .booked-appt-list .timeslot .timeslot-people button,
 body .booked-modal p.booked-title-bar,
 body .booked-modal .button {
-  background: #ff5d8f;
+  background: #d4314c;
 }
 
 .portfolio_hover_type_2 .portfolio-item .content h5:after,
@@ -335,7 +335,7 @@ body .category .item:before,
 .white .album-playlist .jp-volume-bar .jp-volume-bar-value,
 .photo-carousel>a,
 .js-pixproof-gallery .selected .proof-photo__id {
-  background-color: #ff5d8f;
+  background-color: #d4314c;
 }
 
 .portfolio_hover_type_3 .portfolio-item .content,
@@ -348,7 +348,7 @@ body .category .item:before,
 .team-social-buttons a,
 .play-button-block a,
 .booked-calendar-shortcode-wrap .booked-calendar tbody td.today .date .number {
-  border-color: #ff5d8f;
+  border-color: #d4314c;
 }
 
 /* 
@@ -2243,7 +2243,7 @@ body .category .owl-next {
 
 .skill-item .chart .outer {
   fill: transparent;
-  stroke: #ff5d8f;
+  stroke: #d4314c;
   stroke-width: 2px;
   stroke-dasharray: 534;
   stroke-dashoffset: 535;
@@ -4396,7 +4396,7 @@ screen and (max-width: 992px) and (max-height: 450px) and (orientation: landscap
 }
 
 .site-light .album-playlist .jp-playlist .jp-playlist-current {
-  background: #ff5d8f !important;
+  background: #d4314c !important;
   color: #fff;
 }
 
@@ -4404,7 +4404,7 @@ screen and (max-width: 992px) and (max-height: 450px) and (orientation: landscap
 [ 3.30 Photo Carousel ]
 */
 .photo-carousel>a {
-  position: absolute;
+
   top: 50%;
   left: 50%;
   z-index: 3;
@@ -5300,7 +5300,7 @@ screen and (max-width: 992px) and (max-height: 450px) and (orientation: landscap
   height: 2.122em;
   border-radius: 50%;
   margin-bottom: 20px;
-  border-color: #ff5d8f;
+  border-color: #d4314c;
 }
 
 .icon-box-style2 .icon-box .icon i,
@@ -5653,7 +5653,7 @@ screen and (max-width: 992px) and (max-height: 450px) and (orientation: landscap
 }
 
 .banner-categories .item a .h:hover {
-  color: #ff5d8f;
+  color: #d4314c;
 }
 
 .banner-categories .item a .desc {
@@ -5985,7 +5985,7 @@ screen and (max-width: 992px) and (max-height: 450px) and (orientation: landscap
 }
 
 .booked-calendar-shortcode-wrap .booked-calendar tbody td.today:hover .date .number {
-  background: #ff5d8f !important;
+  background: #d4314c !important;
 }
 
 .site-dark .booked-calendar-shortcode-wrap .booked-calendar tbody td.today:hover .date .number {
@@ -6158,7 +6158,7 @@ body .booked-modal .button {
 }
 
 body .booked-modal .button.button-primary {
-  background: #ff5d8f !important;
+  background: #d4314c !important;
 }
 
 body.site-dark .booked-modal .bm-window {
@@ -7706,7 +7706,7 @@ body.rtl .category .owl-next {
   display: flex;
   justify-content: space-between;
   font-size: 14px;
-  color: #ff5d8f;
+  color: #d4314c;
   width: 100%;
   padding: 0 30px;
   pointer-events: none;
@@ -7922,12 +7922,12 @@ body.rtl .category .owl-next {
   width: 100%;
   height: 100%;
   background: #1A1A1A;
-  color: #ff5d8f;
+  color: #d4314c;
   transition: all 400ms ease-in-out;
 }
 
 .liquiq-banner .play-button-block a:hover {
-  background: #ff5d8f;
+  background: #d4314c;
   color: #000;
 }
 
@@ -8213,7 +8213,7 @@ body.rtl .category .owl-next {
 .mobile-navigation .menu>li.mega-current_page_parent>a span,
 .mobile-navigation .menu>li.mega-current-menu-ancestor>a span,
 .mobile-navigation .menu>li:hover>a span {
-  border-color: #ff5d8f;
+  border-color: #d4314c;
 }
 
 .mobile-navigation .menu>li>a.current span:after,
@@ -8228,7 +8228,7 @@ body.rtl .category .owl-next {
 .mobile-navigation .menu>li.mega-current_page_parent>a span:after,
 .mobile-navigation .menu>li.mega-current-menu-ancestor>a span:after {
   content: "";
-  border-color: #ff5d8f;
+  border-color: #d4314c;
 }
 
 .mobile-navigation .menu>li>a.current:before,
@@ -8330,7 +8330,7 @@ body.rtl .category .owl-next {
 .mobile-navigation .mega-sub-menu>li.mega-current_page_parent>a,
 .mobile-navigation .mega-sub-menu>li.mega-current-menu-ancestor>a,
 .mobile-navigation .mega-sub-menu>li:hover>a {
-  color: #ff5d8f;
+  color: #d4314c;
 }
 
 .dark-header .mobile-navigation .sub-menu>li>a.current,

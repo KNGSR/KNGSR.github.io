@@ -6091,7 +6091,7 @@ nav.woocommerce-pagination ul li a:hover,
 nav.woocommerce-pagination ul li a:focus,
 .gdpr-modal-block a,
 .share-stick-block .social-links a:hover {
-  color: #ff5d8f;
+  color: rgb(212, 49, 76);
 }
 
 .button-style1:hover,
@@ -6104,7 +6104,7 @@ nav.woocommerce-pagination ul li a:focus,
 .footer-social-button a+a:after,
 .post-bottom .zilla-likes,
 .button-style1.fill {
-  background: #ff5d8f;
+  background: rgb(212, 49, 76);
 }
 
 .button-style1,
@@ -6122,7 +6122,7 @@ nav.woocommerce-pagination ul li span.current,
 nav.woocommerce-pagination ul li a:hover,
 nav.woocommerce-pagination ul li a:focus,
 .button-style1.fill {
-  border-color: #ff5d8f;
+  border-color: rgb(212, 49, 76);
 }
 
 /* 
@@ -6535,7 +6535,7 @@ pre {
 }
 
 .protected-post-form .form .button svg {
-  fill: #ff5d8f;
+  fill: rgb(212, 49, 76);
 }
 
 .hide-popup-download-link .pswp__share--download,
@@ -11251,7 +11251,7 @@ textarea.style4 {
 }
 
 .post-bottom .share-popup-button:hover {
-  color: #ff5d8f;
+  color: rgb(212, 49, 76);
 }
 
 .post-nav {
@@ -11498,6 +11498,7 @@ textarea.style4 {
 
 .site-footer .post-gallery-grid .portfolio-item .a-img div {
   padding-bottom: 100%;
+  justify-content: center;
 }
 
 .site-footer .post-gallery-grid .portfolio-item a {
@@ -11507,8 +11508,90 @@ textarea.style4 {
   bottom: 4px;
 }
 
+
+
+/*--------------------------------------------------------------------------------------------- GRIIID ------*/
+
+.grid-item {
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s;
+}
+
+.grid-item:hover img {
+  transform: scale(1.1);
+}
+
+.grid-item:hover .title {
+  opacity: 1;
+}
+
+.title {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40%;
+  box-sizing: border-box;
+}
+
+.title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 10px solid transparent;
+  border-top-color: rgba(0, 0, 0, 0);
+}
+
+.title::after {
+  content: attr(title);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+
+/* ---------------------------------- */
+
+
+
 .site-footer .heading-block.with-line:after {
-  background: #ff5d8f;
+  background: rgb(212, 49, 76);
   margin-top: 20px;
 }
 
