@@ -211,27 +211,7 @@ YII_CSRF_TOKEN='01c662c9c1a7206b0d8aa3567ac24d4b38ae69a3';
     <div class="vcard-row follow-scroll contactData-container fixed-button">
         <div class="fabs" id="saveContact">
     <div class="fixed-blur-bgd">
-        <div class="chat">
-            <div data-test="save-contact-modal" class="fab-body fab-step1">
-                <div class="iconFab icon-fab-close"></div>
-                <div class="fab-header" ng-style="{color: isColorLight(view.color2) ? 'black' : view.color2}" style="color: black;">
-                    Enregistrez les données du contact                </div>
-                <div class="fab-header text-regular">Comment souhaitez-vous enregistrer les coordonnées&nbsp;?</div>
-                <ul>
-                    <li data-test="send-by-email-button" open-popup="email" class="addContactAction" ng-click="!loadDemo ? toggleFabStep(1,2) : callAction($event, 'addContactAction')">
-                        <i class="iconFab icon-fab-share-email"></i>
-                        <a href="">
-                            Envoyer par e-mail                        </a>
-                    </li>
-                    <li data-test="send-to-my-phone-button" ng-click="loadDemo ? callAction($event, 'addContactAction') : ''" class="addContactAction">
-                        <i class="iconFab icon-fab-share-savecontact"></i>
-                        <!-- ngIf: !loadDemo --><a ng-if="!loadDemo" href="//qrco.de/handlePost/bdy8rw/?download=true" rel="external" class="ng-scope">
-                            Enregistrer sur mon téléphone                        </a><!-- end ngIf: !loadDemo -->
-                        <!-- ngIf: loadDemo -->
-                    </li>
-                </ul>
-
-            </div>
+    
             <div data-test="send-by-email-modal" class="fab-body fab-step2" style="display:none;">
                 <div class="iconFab icon-fab-close"></div>
                 <div class="icon-event-back" ng-click="toggleFabStep(2,1)"></div>
