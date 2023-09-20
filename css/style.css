@@ -394,6 +394,27 @@ html {
 */
 
 
+.bouton_contact {
+    margin-top: 5%;
+    background-color: #F7D40A;
+    border-radius: 28px;
+    border: 1px solid #F7D40A;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Ubuntu;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #000000;
+}
+.bouton_contact:hover {
+	background-color:#fff2a7;
+}
+.bouton_contact:active {
+	position:relative;
+	top:1px;
+}
 
 /*------------------------------------------------------------------
 [2.1 Logo ]
